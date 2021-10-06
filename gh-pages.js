@@ -8,9 +8,10 @@ ghpages.publish(
         user: {
             name: 'Andy', // update to use your name
             email: 'andyghopkins@gmail.com' // Update to use your email
-        }
-    },
-    () => {
-        console.log('Deploy Complete!')
-    }
-)
+        },
+		dotfiles: true
+	},
+	() => {
+		console.log('Deploy Complete!');
+	}
+);
